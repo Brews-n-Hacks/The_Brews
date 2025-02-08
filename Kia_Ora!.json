@@ -1,0 +1,1255 @@
+{
+  "beerjson": {
+    "version": 2.06,
+    "fermentables": [
+      {
+        "name": "Rice Hulls",
+        "type": "other",
+        "origin": "US",
+        "producer": "",
+        "product_id": "",
+        "yield": {
+          "fine_grind": {
+            "unit": "%",
+            "value": 0
+          },
+          "fine_coarse_difference": {
+            "unit": "%",
+            "value": 0
+          }
+        },
+        "color": {
+          "unit": "SRM",
+          "value": 0
+        },
+        "notes": "",
+        "moisture": {
+          "unit": "%",
+          "value": 0
+        },
+        "protein": {
+          "unit": "%",
+          "value": 0
+        },
+        "max_in_batch": {
+          "unit": "%",
+          "value": 5
+        },
+        "recommend_mash": false,
+        "inventory": {
+          "amount": {
+            "unit": "kg",
+            "value": 0
+          }
+        }
+      },
+      {
+        "name": "Harraway's Rolled Oats",
+        "type": "grain",
+        "origin": "New Zealand",
+        "producer": "",
+        "product_id": "",
+        "yield": {
+          "fine_grind": {
+            "unit": "%",
+            "value": 85
+          },
+          "fine_coarse_difference": {
+            "unit": "%",
+            "value": 0
+          }
+        },
+        "color": {
+          "unit": "SRM",
+          "value": 1
+        },
+        "notes": "",
+        "moisture": {
+          "unit": "%",
+          "value": 8
+        },
+        "protein": {
+          "unit": "%",
+          "value": 9
+        },
+        "max_in_batch": {
+          "unit": "%",
+          "value": 0
+        },
+        "recommend_mash": true,
+        "inventory": {
+          "amount": {
+            "unit": "kg",
+            "value": 0
+          }
+        }
+      },
+      {
+        "name": "Wheat, Flaked",
+        "type": "grain",
+        "origin": "US",
+        "producer": "",
+        "product_id": "",
+        "yield": {
+          "fine_grind": {
+            "unit": "%",
+            "value": 77
+          },
+          "fine_coarse_difference": {
+            "unit": "%",
+            "value": 0
+          }
+        },
+        "color": {
+          "unit": "SRM",
+          "value": 2
+        },
+        "notes": "Flaked wheat is not malted, therefore requires extra effort to extract it's potential sugar content, which will be lower than malted wheat. Flaked wheat is traditional in Belgian witbier and lambics, it contains more starch and higher levels of protein than malted wheat. It adds more mouthfeel than malted wheat and has a different taste, which is noticeable when used in larger quantities. If the grain bill consists of more than 25% flaked wheat you should consider a cereal mash, or precooking the wheat in order to gelatinize it so you can extract more sugars out of it. The addion of 6-row can aid conversion since the barley contains a higher percentage of enzymes than 2-row.",
+        "moisture": {
+          "unit": "%",
+          "value": 0
+        },
+        "protein": {
+          "unit": "%",
+          "value": 0
+        },
+        "max_in_batch": {
+          "unit": "%",
+          "value": 40
+        },
+        "recommend_mash": true,
+        "inventory": {
+          "amount": {
+            "unit": "kg",
+            "value": 0
+          }
+        }
+      },
+      {
+        "name": "Simpsons - Golden Promise",
+        "type": "grain",
+        "origin": "UK",
+        "producer": "",
+        "product_id": "",
+        "yield": {
+          "fine_grind": {
+            "unit": "%",
+            "value": 81
+          },
+          "fine_coarse_difference": {
+            "unit": "%",
+            "value": 1
+          }
+        },
+        "color": {
+          "unit": "SRM",
+          "value": 2
+        },
+        "notes": "",
+        "moisture": {
+          "unit": "%",
+          "value": 3.5
+        },
+        "diastatic_power": {
+          "unit": "Lintner",
+          "value": 120
+        },
+        "protein": {
+          "unit": "%",
+          "value": 12
+        },
+        "max_in_batch": {
+          "unit": "%",
+          "value": 100
+        },
+        "recommend_mash": true,
+        "inventory": {
+          "amount": {
+            "unit": "kg",
+            "value": 0
+          }
+        }
+      },
+      {
+        "name": "Honey Malt",
+        "type": "grain",
+        "origin": "Canada",
+        "producer": "",
+        "product_id": "",
+        "yield": {
+          "fine_grind": {
+            "unit": "%",
+            "value": 80
+          },
+          "fine_coarse_difference": {
+            "unit": "%",
+            "value": 2
+          }
+        },
+        "color": {
+          "unit": "SRM",
+          "value": 25
+        },
+        "notes": "This Canadian malt imparts a honey-like flavor. It also also sometimes called Brumalt. \nIntensely sweet - adds a sweet malty flavor sometimes associated with honey. ",
+        "moisture": {
+          "unit": "%",
+          "value": 3.8
+        },
+        "protein": {
+          "unit": "%",
+          "value": 10.5
+        },
+        "max_in_batch": {
+          "unit": "%",
+          "value": 10
+        },
+        "recommend_mash": true,
+        "inventory": {
+          "amount": {
+            "unit": "kg",
+            "value": 0
+          }
+        }
+      }
+    ],
+    "hop_varieties": [
+      {
+        "name": "Wai-iti",
+        "producer": "",
+        "product_id": "",
+        "origin": "",
+        "year": "",
+        "form": "pellet",
+        "alpha_acid": {
+          "unit": "%",
+          "value": 3
+        },
+        "beta_acid": {
+          "unit": "%",
+          "value": 5
+        },
+        "type": "aroma",
+        "notes": "",
+        "percent_lost": {
+          "unit": "%",
+          "value": 0
+        },
+        "substitutes": "",
+        "oil_content": {
+          "humulene": {
+            "unit": "%",
+            "value": 28
+          },
+          "caryophyllene": {
+            "unit": "%",
+            "value": 9
+          },
+          "cohumulone": {
+            "unit": "%",
+            "value": 23
+          },
+          "myrcene": {
+            "unit": "%",
+            "value": 3
+          }
+        },
+        "inventory": {
+          "amount": {
+            "unit": "kg",
+            "value": 0
+          }
+        }
+      },
+      {
+        "name": "Nectaron",
+        "producer": "",
+        "product_id": "",
+        "origin": "New Zealand (NZ)",
+        "year": "",
+        "form": "pellet",
+        "alpha_acid": {
+          "unit": "%",
+          "value": 14.6
+        },
+        "beta_acid": {
+          "unit": "%",
+          "value": 5
+        },
+        "type": "aroma",
+        "notes": "",
+        "percent_lost": {
+          "unit": "%",
+          "value": 0
+        },
+        "substitutes": "",
+        "oil_content": {
+          "humulene": {
+            "unit": "%",
+            "value": 15
+          },
+          "caryophyllene": {
+            "unit": "%",
+            "value": 5
+          },
+          "cohumulone": {
+            "unit": "%",
+            "value": 27
+          },
+          "myrcene": {
+            "unit": "%",
+            "value": 62
+          }
+        },
+        "inventory": {
+          "amount": {
+            "unit": "kg",
+            "value": 0
+          }
+        }
+      },
+      {
+        "name": "Nelson Sauvin",
+        "producer": "",
+        "product_id": "",
+        "origin": "New Zealand",
+        "year": "",
+        "form": "pellet",
+        "alpha_acid": {
+          "unit": "%",
+          "value": 11
+        },
+        "beta_acid": {
+          "unit": "%",
+          "value": 6
+        },
+        "type": "aroma",
+        "notes": "Origin \nNelson Sauvin is a triploid variety developed at Hort Research, Riwaka Research Centre from a Smoothcone and NZ male cross. It was first released in 2000.\nNew Zealand hops begin to be harvested in late February or March and continues through to early April. \nFlavor & Aroma Profile \nNelson Sauvin is an aroma hop that is typically used in only late boil additions, including dry hopping.\nThe Nelson Sauvin hop aroma descriptors include distinctive white wine characters along with fruity flavors, such as fresh crushed gooseberry and grape. The essential oil profile displays characteristics of fresh crushed gooseberries, which is a descriptor often used for the grape variety Sauvignon Blanc, which is the reason for this variety's name.\n\nThis is a hop that may require efficient application in the brew house, this truly unique dual-purpose variety can be used to produce big punchy Ales as well as subtle aroma driven Lagers. The fruitiness may be a little overpowering for the uninitiated, however those with a penchant for bold hop character will find several applications for this true brewer's hop.\nRead More: Southern Hemisphere Hops: Superlatives Edition \nTags: #white_wine  #fruity  #gooseberry  #grapes  #sauvignon_blanc  ",
+        "percent_lost": {
+          "unit": "%",
+          "value": 0
+        },
+        "substitutes": "",
+        "oil_content": {
+          "humulene": {
+            "unit": "%",
+            "value": 30
+          },
+          "caryophyllene": {
+            "unit": "%",
+            "value": 8
+          },
+          "cohumulone": {
+            "unit": "%",
+            "value": 22
+          },
+          "myrcene": {
+            "unit": "%",
+            "value": 32
+          }
+        },
+        "inventory": {
+          "amount": {
+            "unit": "kg",
+            "value": 0
+          }
+        }
+      },
+      {
+        "name": "Motueka",
+        "producer": "",
+        "product_id": "",
+        "origin": "New Zealand",
+        "year": "",
+        "form": "pellet",
+        "alpha_acid": {
+          "unit": "%",
+          "value": 7
+        },
+        "beta_acid": {
+          "unit": "%",
+          "value": 5
+        },
+        "type": "aroma/bittering",
+        "notes": "",
+        "percent_lost": {
+          "unit": "%",
+          "value": 0
+        },
+        "substitutes": "",
+        "oil_content": {
+          "humulene": {
+            "unit": "%",
+            "value": 0
+          },
+          "caryophyllene": {
+            "unit": "%",
+            "value": 0
+          },
+          "cohumulone": {
+            "unit": "%",
+            "value": 29
+          },
+          "myrcene": {
+            "unit": "%",
+            "value": 0
+          }
+        },
+        "inventory": {
+          "amount": {
+            "unit": "kg",
+            "value": 0
+          }
+        }
+      }
+    ],
+    "miscellaneous_ingredients": [
+      {
+        "name": "Calcium Chloride",
+        "producer": "",
+        "product_id": "",
+        "type": "water agent",
+        "use_for": "",
+        "notes": "",
+        "inventory": {
+          "amount": {
+            "unit": "kg",
+            "value": 0
+          }
+        }
+      },
+      {
+        "name": "Yeast Nutrient",
+        "producer": "",
+        "product_id": "",
+        "type": "other",
+        "use_for": "",
+        "notes": "",
+        "inventory": {
+          "amount": {
+            "unit": "l",
+            "value": 0
+          }
+        }
+      }
+    ],
+    "cultures": [
+      {
+        "name": "London Ale III",
+        "type": "ale",
+        "form": "liquid",
+        "producer": "Wyeast Labs",
+        "product_id": "WY1318",
+        "temperature_range": {
+          "minimum": {
+            "unit": "C",
+            "value": 17.7778
+          },
+          "maximum": {
+            "unit": "C",
+            "value": 23.3333
+          }
+        },
+        "alcohol_tolerance": {
+          "unit": "%",
+          "value": 10
+        },
+        "flocculation": "high",
+        "attenuation_range": {
+          "minimum": {
+            "unit": "%",
+            "value": 71
+          },
+          "maximum": {
+            "unit": "%",
+            "value": 75
+          }
+        },
+        "notes": "Originating from a traditional London brewery, this yeast has a wonderful malt and hop profile. It is a true top cropping strain with a fruity, very light and softly balanced palate. This strain will finish slightly sweet. London Ale III has become synonymous with the production of New England IPAs, also known as juicy or hazy IPAs, and balances well with the tropical fruit qualities from late and dry hop additions.",
+        "best_for": "Hazy IPA, IPA, Bitters, Stout & Barleywine"
+      }
+    ],
+    "styles": [
+      {
+        "name": "Hazy IPA",
+        "category": "IPA",
+        "category_number": 0,
+        "style_letter": "",
+        "style_guide": "BJCP2021",
+        "type": "beer",
+        "original_gravity": {
+          "minimum": {
+            "unit": "sg",
+            "value": 1.06
+          },
+          "maximum": {
+            "unit": "sg",
+            "value": 1.085
+          }
+        },
+        "final_gravity": {
+          "minimum": {
+            "unit": "sg",
+            "value": 1.01
+          },
+          "maximum": {
+            "unit": "sg",
+            "value": 1.015
+          }
+        },
+        "international_bitterness_units": {
+          "minimum": {
+            "unit": "IBUs",
+            "value": 25
+          },
+          "maximum": {
+            "unit": "IBUs",
+            "value": 60
+          }
+        },
+        "color": {
+          "minimum": {
+            "unit": "SRM",
+            "value": 3
+          },
+          "maximum": {
+            "unit": "SRM",
+            "value": 7
+          }
+        },
+        "alcohol_by_volume": {
+          "minimum": {
+            "unit": "%",
+            "value": 6
+          },
+          "maximum": {
+            "unit": "%",
+            "value": 9
+          }
+        },
+        "notes": "",
+        "aroma": "Intense hop aroma, with stone fruit, tropical fruit, citrus, or other fruity qualities; not grassy or herbal. Clean, neutral, grainy,or lightly bready malt in the background; no caramel or toast. Absence of any malt character is a fault. Neutral to fruity fermentation character. Esters from yeast and hops should not clash. A creamy, buttery, or acidic aroma is inappropriate. Light alcohol aroma optional.",
+        "appearance": "Color ranging from straw to very light amber, sometimes with an orange hue. Hazy, often opaque, clarity; should not be cloudy or murky. The opacity can add a ‘shine’ to the beer and make the color seem darker. Any visible floating hop matter, yeast clumps, or other particulates is a fault. Medium to rocky, meringue-like white head with high to very high retention.",
+        "flavor": "High to very high fruity hop flavor, same descriptors as aroma. Low to medium malt flavor, same descriptors as aroma. Low to medium-high perceived bitterness, often masked by the fuller body and soft, off-dry to medium finish. The hop character in the aftertaste should not be sharp or harsh. Neutral to fruity fermentation profile, supportive of the hops. Should not be sweet, although high ester levels and lower bitterness may sometimes give that impression. Background alcohol flavor optional.",
+        "mouthfeel": "Medium to medium-full body. Medium carbonation. Smooth. No harshness. Lightwarmth optional.The beer should not have a creamy or viscous mouthfeel, an acidic twang, or a raw starch texture.",
+        "overall_impression": "An American IPA with intense fruit flavors and aromas, a soft body, smooth mouthfeel, and often opaque with substantial haze. Less perceived bitterness than traditional IPAs but always massively hop-forward.",
+        "ingredients": "Grist like an American IPA, but with more flakedgrains and less caramel or specialty malts. American or New World hops with fruity characteristics. Neutral to estery yeast. Balanced to chloride-rich water. Heavily dry-hopped, partly during active fermentation, using a variety of hopping doses and temperatures to emphasis depth of hop aroma and flavor over bitterness. Biotransformation of hop oils during fermentation adds to the depth and fruit complexity.",
+        "examples": "Belching Beaver Hazers Gonna Haze, Hill Farmstead Susan, Other Half Green Diamonds Double IPA, Pinthouse Electric Jellyfish, Tree House Julius, Trillium Congress Street, WeldWerks Juicy Bits"
+      }
+    ],
+    "equipments": [
+      {
+        "name": "Half Batch",
+        "equipment_items": [
+          {
+            "form": "HLT",
+            "name": "Hot Liquor Tank",
+            "type": "",
+            "maximum_volume": {
+              "unit": "l",
+              "value": 0
+            },
+            "loss": {
+              "unit": "l",
+              "value": 0
+            },
+            "notes": ""
+          },
+          {
+            "form": "Mash Tun",
+            "name": "Mash Tun",
+            "type": "",
+            "maximum_volume": {
+              "unit": "l",
+              "value": 22.7125
+            },
+            "loss": {
+              "unit": "l",
+              "value": 0
+            },
+            "grain_absorption_rate": {
+              "unit": "l/kg",
+              "value": 1.085
+            },
+            "weight": {
+              "unit": "kg",
+              "value": 0
+            },
+            "specific_heat": {
+              "unit": "Cal/(g C)",
+              "value": 0
+            },
+            "notes": ""
+          },
+          {
+            "form": "Lauter Tun",
+            "name": "Lauter Tun",
+            "type": "",
+            "maximum_volume": {
+              "unit": "l",
+              "value": 0
+            },
+            "loss": {
+              "unit": "l",
+              "value": 0
+            },
+            "notes": ""
+          },
+          {
+            "form": "Brew Kettle",
+            "name": "Brew Kettle",
+            "type": "",
+            "maximum_volume": {
+              "unit": "l",
+              "value": 13.2489
+            },
+            "loss": {
+              "unit": "l",
+              "value": 0.500148
+            },
+            "boil_rate_per_hour": {
+              "unit": "l",
+              "value": 4.37972
+            },
+            "notes": ""
+          },
+          {
+            "form": "Fermenter",
+            "name": "Fermenter",
+            "type": "",
+            "maximum_volume": {
+              "unit": "l",
+              "value": 9.46353
+            },
+            "loss": {
+              "unit": "l",
+              "value": 0
+            },
+            "notes": ""
+          },
+          {
+            "form": "Aging Vessel",
+            "name": "Aging Vessel",
+            "type": "",
+            "maximum_volume": {
+              "unit": "l",
+              "value": 0
+            },
+            "loss": {
+              "unit": "l",
+              "value": 0
+            },
+            "notes": ""
+          },
+          {
+            "form": "Packaging Vessel",
+            "name": "Packaging Vessel",
+            "type": "",
+            "maximum_volume": {
+              "unit": "l",
+              "value": 0
+            },
+            "loss": {
+              "unit": "l",
+              "value": 0
+            },
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "recipes": [
+      {
+        "name": "Kia Ora! 2.0",
+        "type": "all grain",
+        "author": "",
+        "coauthor": "Brewtarget: free beer software",
+        "created": "2024-02-19",
+        "batch_size": {
+          "unit": "l",
+          "value": 9.46353
+        },
+        "efficiency": {
+          "brewhouse": {
+            "unit": "%",
+            "value": 70
+          }
+        },
+        "style": {
+          "name": "Hazy IPA",
+          "category": "IPA",
+          "category_number": 0,
+          "style_letter": "",
+          "style_guide": "BJCP2021",
+          "type": "beer"
+        },
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 0
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.170097
+              },
+              "name": "Rice Hulls",
+              "type": "other",
+              "origin": "US",
+              "producer": "",
+              "product_id": "",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 0
+                },
+                "fine_coarse_difference": {
+                  "unit": "%",
+                  "value": 0
+                }
+              },
+              "color": {
+                "unit": "SRM",
+                "value": 0
+              }
+            },
+            {
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 0
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.283495
+              },
+              "name": "Honey Malt",
+              "type": "grain",
+              "origin": "Canada",
+              "producer": "",
+              "product_id": "",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 80
+                },
+                "fine_coarse_difference": {
+                  "unit": "%",
+                  "value": 2
+                }
+              },
+              "color": {
+                "unit": "SRM",
+                "value": 25
+              }
+            },
+            {
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 0
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.170097
+              },
+              "name": "Wheat, Flaked",
+              "type": "grain",
+              "origin": "US",
+              "producer": "",
+              "product_id": "",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 77
+                },
+                "fine_coarse_difference": {
+                  "unit": "%",
+                  "value": 0
+                }
+              },
+              "color": {
+                "unit": "SRM",
+                "value": 2
+              }
+            },
+            {
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 0
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.604788
+              },
+              "name": "Harraway's Rolled Oats",
+              "type": "grain",
+              "origin": "New Zealand",
+              "producer": "",
+              "product_id": "",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 85
+                },
+                "fine_coarse_difference": {
+                  "unit": "%",
+                  "value": 0
+                }
+              },
+              "color": {
+                "unit": "SRM",
+                "value": 1
+              }
+            },
+            {
+              "timing": {
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 2.04117
+              },
+              "name": "Simpsons - Golden Promise",
+              "type": "grain",
+              "origin": "UK",
+              "producer": "",
+              "product_id": "",
+              "yield": {
+                "fine_grind": {
+                  "unit": "%",
+                  "value": 81
+                },
+                "fine_coarse_difference": {
+                  "unit": "%",
+                  "value": 1
+                }
+              },
+              "color": {
+                "unit": "SRM",
+                "value": 2
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 12960
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.0283495
+              },
+              "name": "Nectaron",
+              "producer": "",
+              "product_id": "",
+              "origin": "New Zealand (NZ)",
+              "year": "",
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14.6
+              },
+              "beta_acid": {
+                "unit": "%",
+                "value": 5
+              }
+            },
+            {
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 4320
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.056699
+              },
+              "name": "Nectaron",
+              "producer": "",
+              "product_id": "",
+              "origin": "New Zealand (NZ)",
+              "year": "",
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14.6
+              },
+              "beta_acid": {
+                "unit": "%",
+                "value": 5
+              }
+            },
+            {
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 12960
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.0283495
+              },
+              "name": "Wai-iti",
+              "producer": "",
+              "product_id": "",
+              "origin": "",
+              "year": "",
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3
+              },
+              "beta_acid": {
+                "unit": "%",
+                "value": 5
+              }
+            },
+            {
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 0
+                },
+                "step": 2,
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.0850486
+              },
+              "name": "Motueka",
+              "producer": "",
+              "product_id": "",
+              "origin": "New Zealand",
+              "year": "",
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7
+              },
+              "beta_acid": {
+                "unit": "%",
+                "value": 5
+              }
+            },
+            {
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 4320
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.056699
+              },
+              "name": "Wai-iti",
+              "producer": "",
+              "product_id": "",
+              "origin": "",
+              "year": "",
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3
+              },
+              "beta_acid": {
+                "unit": "%",
+                "value": 5
+              }
+            },
+            {
+              "timing": {
+                "time": {
+                  "unit": "min",
+                  "value": 45
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.00283495
+              },
+              "name": "Nelson Sauvin",
+              "producer": "",
+              "product_id": "",
+              "origin": "New Zealand",
+              "year": "",
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11
+              },
+              "beta_acid": {
+                "unit": "%",
+                "value": 6
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "timing": {
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.907185
+              },
+              "name": "Yeast Nutrient",
+              "producer": "",
+              "product_id": "",
+              "type": "other"
+            },
+            {
+              "timing": {
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0.00283495
+              },
+              "name": "Calcium Chloride",
+              "producer": "",
+              "product_id": "",
+              "type": "water agent"
+            }
+          ],
+          "culture_additions": [
+            {
+              "timing": {
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "kg",
+                "value": 0
+              },
+              "name": "London Ale III",
+              "type": "ale",
+              "form": "liquid",
+              "producer": "Wyeast Labs",
+              "product_id": "WY1318"
+            }
+          ],
+          "water_additions": [
+
+          ]
+        },
+        "mash": {
+          "name": "Single Step",
+          "grain_temperature": {
+            "unit": "C",
+            "value": 20
+          },
+          "notes": "",
+          "mash_steps": [
+            {
+              "name": "Conversion",
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 13.0124
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 66.6667
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              },
+              "ramp_time": {
+                "unit": "min",
+                "value": 0
+              },
+              "description": "",
+              "infuse_temperature": {
+                "unit": "C",
+                "value": 78.2165
+              }
+            },
+            {
+              "name": "Final Batch Sparge",
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 18.2982
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 74
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              },
+              "ramp_time": {
+                "unit": "min",
+                "value": 0
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 81.7087
+              },
+              "description": "",
+              "infuse_temperature": {
+                "unit": "C",
+                "value": 81.7087
+              }
+            },
+            {
+              "name": "Final Batch Sparge",
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17.9528
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 74
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              },
+              "ramp_time": {
+                "unit": "min",
+                "value": 0
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 82.1759
+              },
+              "description": "",
+              "infuse_temperature": {
+                "unit": "C",
+                "value": 82.1759
+              }
+            }
+          ]
+        },
+        "notes": "Brewers friend had STATS:\nOriginal Gravity: 1.069\nFinal Gravity: 1.019\nABV (standard): 6.59%\nIBU (tinseth): 32.2\nSRM (morey): 8.72\nMash pH: 0\n\nhttps://www.brewersfriend.com/homebrew/recipe/view/1443134/dream-neipa",
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.06533
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.01764
+        },
+        "alcohol_by_volume": {
+          "unit": "%",
+          "value": 6.55324
+        },
+        "color_estimate": {
+          "unit": "SRM",
+          "value": 7.31265
+        },
+        "carbonation": 0,
+        "fermentation": {
+          "name": "Fermentation for Kia Ora!",
+          "description": "",
+          "notes": "",
+          "fermentation_steps": [
+            {
+              "name": "Primary fermentation for Kia Ora!",
+              "description": "Automatically-generated primary fermentation step for Kia Ora!",
+              "start_temperature": {
+                "unit": "C",
+                "value": 23.8889
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 0
+              },
+              "vessel": ""
+            }
+          ]
+        },
+        "boil": {
+          "name": "Boil for Kia Ora!",
+          "description": "",
+          "notes": "",
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 13.2489
+          },
+          "boil_time": {
+            "unit": "min",
+            "value": 45
+          },
+          "boil_steps": [
+            {
+              "name": "Pre-boil for Kia Ora!",
+              "description": "Automatically-generated pre-boil step for Kia Ora!",
+              "start_temperature": {
+                "unit": "C",
+                "value": 66.6667
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 100
+              }
+            },
+            {
+              "name": "Boil proper for Kia Ora!",
+              "description": "Automatically-generated boil proper step for Kia Ora!",
+              "start_temperature": {
+                "unit": "C",
+                "value": 100
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 100
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 45
+              }
+            },
+            {
+              "name": "Wort cooling for Kia Ora!",
+              "description": "Automatically-generated post-boil step for Kia Ora!",
+              "start_temperature": {
+                "unit": "C",
+                "value": 100
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 24.4444
+              }
+            }
+          ]
+        },
+        "taste": {
+          "notes": "",
+          "rating": 0
+        },
+        "calories_per_pint": 289.521
+      }
+    ]
+  }
+}
